@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wenjing Huang – Academic CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Academic CV and research profile of Wenjing Huang." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-bg"></div>
+
+    <div class="container header-content">
+        <div>
+        <h1>Wenjing Huang</h1>
+        <p class="tagline">
+            Ph.D. Student · Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)
+        </p>
+        <p class="contact-line">
+            <a href="mailto:huangwenjing23@mails.ucas.ac.cn">huangwenjing23@mails.ucas.ac.cn</a>
+            · <a href="https://scholar.google.com/citations?user=-taQO8YAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            · <a href="https://orcid.org/0009-0009-5541-3519" target="_blank" rel="noopener">ORCID</a>
+            · <a href="https://github.com/ewTomato" target="_blank" rel="noopener">GitHub</a>
+        </p>
+        </div>
+
+        <div class="profile-photo">
+        <img src="assets/img/wenjing-huang.jpg" alt="Portrait of Wenjing Huang" />
+        </div>
+
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        🌗
+        </button>
+    </div>
+
+    <!-- nav stays the same -->
+    </header>
+
+  <main class="container">
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        Hi! I’m <strong>Wenjing Huang</strong>. I am currently a Ph.D. student at the
+        <strong>Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)</strong>,
+        supervised by <strong>Prof. Dingwen Tao</strong>.
+        I received my B.E. degree from the School of Computer Science and Engineering at
+        <strong>Central South University (CSU)</strong>.
+      </p>
+      <p>
+        My research interests include <strong>error-bounded lossy compression</strong> and
+        <strong>AI-based compression for scientific data</strong>.
+        I am particularly interested in developing efficient, scalable, and reliable learning-based
+        methods for scientific applications.
+      </p>
+      <p>
+        If you are interested in my research or potential collaborations, feel free to contact me at
+        <a href="mailto:huangwenjing23@mails.ucas.ac.cn">huangwenjing23@mails.ucas.ac.cn</a>.
+      </p>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="section">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">2025.11</span>
+          <span class="news-text">🎉 Two papers are accepted by <strong>PPoPP 2026</strong>.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Research Interests -->
+    <section id="research" class="section">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Error-bounded lossy compression for scientific data</li>
+        <li>AI-based / learning-based compression for scientific data</li>
+      </ul>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+    <h2>Publications</h2>
+
+    <div class="pub-filters">
+        <button class="pub-filter-button active" data-filter="all">All</button>
+        <button class="pub-filter-button" data-filter="journal">Journals</button>
+        <button class="pub-filter-button" data-filter="conference">Conferences</button>
+    </div>
+
+    <h3>Journal Articles</h3>
+    <ol class="pub-list">
+        <li class="pub-item" data-type="journal">
+        <div class="pub-header">
+            <span class="pub-venue">Astronomy &amp; Astrophysics</span>
+        </div>
+        <div class="pub-title">
+            SolarZip: An Efficient and Adaptive Compression Framework for Solar EUV Imaging Data
+        </div>
+        <div class="pub-authors">
+            Zedong Liu, Song Tan, Alexander Warmuth, Frédéric Schuller, Yun Hong,
+            <strong>Wenjing Huang</strong>, et al.
+        </div>
+        <div class="pub-links">
+            <a href="https://arxiv.org/abs/2504.13504" target="_blank" rel="noopener">arXiv</a>
+        </div>
+        </li>
+    </ol>
+
+    <h3>Conference Papers</h3>
+    <ol class="pub-list">
+        <li class="pub-item" data-type="conference">
+        <div class="pub-header">
+            <span class="pub-venue">SC 2025</span>
+        </div>
+        <div class="pub-title">
+            MANS: Efficient and Portable ANS Encoding for Multi-Byte Integer Data on CPUs and GPUs
+        </div>
+        <div class="pub-authors">
+            <strong>Wenjing Huang</strong>, Jinwu Yang, Shengquan Yin, et al.
+        </div>
+        <div class="pub-links">
+            <a href="https://dl.acm.org/doi/full/10.1145/3712285.3759825" target="_blank" rel="noopener">PDF</a>
+        </div>
+        </li>
+
+        <li class="pub-item" data-type="conference">
+        <div class="pub-header">
+            <span class="pub-venue">HPDC 2025</span>
+        </div>
+        <div class="pub-title">
+            TSUE: A Two-Stage Data Update Method for an Erasure Coded Cluster File System
+        </div>
+        <div class="pub-authors">
+            Zheng Wei, Jing Xing, Yida Gu, <strong>Wenjing Huang</strong>, et al.
+        </div>
+        <div class="pub-links">
+            <a href="https://dl.acm.org/doi/abs/10.1145/3731545.3731577" target="_blank" rel="noopener">Abstract</a>
+        </div>
+        </li>
+    </ol>
+    </section>
+
+
+    <!-- Honors -->
+    <section id="honors" class="section">
+      <h2>Honors and Awards</h2>
+      <ul class="timeline">
+        <li>
+          <strong>2025.10</strong> – National Scholarship, Ministry of Education, China
+        </li>
+        <li>
+          <strong>2025.01</strong> – Outstanding Student Award, State Key Lab of Processors, ICT, CAS
+        </li>
+        <li>
+          <strong>2024.06</strong> – Outstanding Student Award, School of Computer Science and Technology,
+          University of Chinese Academy of Sciences
+        </li>
+        <li>
+          <strong>2023.06</strong> – Outstanding graduate thesis, Central South University
+        </li>
+        <li>
+          <strong>2023.06</strong> – Outstanding Graduate, Central South University
+        </li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li>
+          <strong>Ph.D. Student</strong>, Institute of Computing Technology,
+          Chinese Academy of Sciences (ICT, CAS)<br />
+          <span class="timeline-date">2025.06 – Present</span>
+        </li>
+        <li>
+          <strong>M.S. Student</strong>, Institute of Computing Technology,
+          Chinese Academy of Sciences (ICT, CAS)<br />
+          <span class="timeline-date">2023.09 – 2025.06</span>
+        </li>
+        <li>
+          <strong>B.E.</strong> in Computer Science and Technology, Central South University<br />
+          <span class="timeline-date">2019.09 – 2023.06</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CV -->
+    <!-- <section id="cv" class="section">
+      <h2>CV</h2>
+      <p>
+        You can download my full CV here:
+        <a href="cv.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>.
+      </p>
+      <p class="note">
+        Place your <code>cv.pdf</code> file in the root of this repository.
+      </p>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:huangwenjing23@mails.ucas.ac.cn">huangwenjing23@mails.ucas.ac.cn</a><br />
+        <strong>Institution:</strong> Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)
+      </p>
+    </section>
+  </main>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    ↑
+  </button>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Wenjing Huang. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Dark mode toggle
+    const body = document.body;
+    const themeToggle = document.getElementById('theme-toggle');
+    const storedTheme = localStorage.getItem('theme');
+
+    if (storedTheme === 'dark') {
+      body.classList.add('dark-mode');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      const theme = body.classList.contains('dark-mode') ? 'dark' : 'light';
+      localStorage.setItem('theme', theme);
+    });
+
+    // Scrollspy for navigation
+    const sections = document.querySelectorAll('main section');
+    const navLinks = document.querySelectorAll('.nav-inner a');
+
+    function onScroll() {
+      const scrollPos = window.scrollY + 120; // offset for header
+      let currentId = '';
+
+      sections.forEach((section) => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        if (scrollPos >= top && scrollPos < top + height) {
+          currentId = section.id;
+        }
+      });
+
+      navLinks.forEach((link) => {
+        link.classList.toggle(
+          'active',
+          currentId && link.getAttribute('href') === '#' + currentId
+        );
+      });
+
+      // Back-to-top visibility
+      const backToTop = document.getElementById('back-to-top');
+      if (window.scrollY > 300) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    }
+
+    window.addEventListener('scroll', onScroll);
+    onScroll();
+
+    // Back to top button
+    const backToTop = document.getElementById('back-to-top');
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Publication filters
+    const filterButtons = document.querySelectorAll('.pub-filter-button');
+    // 选中所有 publication 部分的 li
+    const pubItems = document.querySelectorAll('#publications .pub-list li');
+
+    filterButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter; // 'all' / 'journal' / 'conference'
+
+        // 更新按钮高亮
+        filterButtons.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // 显示 / 隐藏论文条目
+        pubItems.forEach((item) => {
+        const type = item.dataset.type; // 'journal' or 'conference'
+        if (filter === 'all' || type === filter) {
+            item.style.display = '';       // 恢复正常显示
+        } else {
+            item.style.display = 'none';   // 隐藏
+        }
+        });
+    });
+    });
+
+  </script>
+</body>
+</html>
